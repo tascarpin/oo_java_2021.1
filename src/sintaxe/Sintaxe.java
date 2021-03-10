@@ -13,7 +13,8 @@ public class Sintaxe {
 	public boolean boolean1;
 	public String nome = "Tassio", sobrenome = "Pinheiro", str1;
 	public char[] vetChar;
-	public String[] vetStr;
+	//Outra forma de declarar um vetor
+	public String vetStr[];
 	
 
 	public void calculaInt() {
@@ -47,7 +48,7 @@ public class Sintaxe {
 		System.out.println("O meu nome1 é: " + nome + " " + sobrenome);		
 		System.out.printf("O meu nome2 é: %s%n", nome + " " + sobrenome);		
 		str1 = nome.concat(sobrenome);
-		System.out.printf("O meu nome3 é: %s%n", nome + " " + sobrenome);		
+		System.out.printf("O meu nome3 é: %s%n", str1);				
 	}
 
 	public void vetorChar() {
