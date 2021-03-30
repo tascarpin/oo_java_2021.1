@@ -21,15 +21,34 @@ public class Executa {
 //		objeto.fluxoFor5();
 //		objeto.fluxoFor6();
 		
-		objeto.fluxoForVet();
-		objeto.fluxoForVet2();
-		objeto.fluxoForVet3();
+//		objeto.fluxoForVet();
+//		objeto.fluxoForVet2();
+//		objeto.fluxoForVet3();
 
+
+//		objeto.concatCharComFor1();
+//		objeto.concatCharComFor2();
+//		objeto.concatCharComFor3();
 		
+//		objeto.valueOf();
+//		objeto.codicionalIF1();
+//		objeto.codicionalIF2();
+//		objeto.codicionalIF3();
 		
 //		objeto.fluxoFor();
 //		objeto.concatCharComFor();
 //		objeto.contcatCharComOperador();
+		
+//		objeto.operadorLogico();
+//		objeto.operadorLogico2();
+//		objeto.loopWhile();
+//		objeto.incrementosPrePos();
+		objeto.loopDoWhile();
+		
+		
+
+			
+
 		
 		
 	}
