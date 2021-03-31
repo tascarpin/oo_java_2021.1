@@ -1,5 +1,7 @@
 package sintaxe;
 
+import java.util.Scanner;
+
 //Comentarios em linha
 
 /*Comentários em bloco
@@ -95,7 +97,6 @@ public class Sintaxe {
 		System.out.println("Meu nome concatCharComOperador2 é:" + auxStr2);
 		System.out.println("Meu nome valueOf é:" + String.copyValueOf(vetChar));
 	}	
-<<<<<<< HEAD
 	
 	public void codicionalIF2() {
 	
@@ -120,8 +121,7 @@ public class Sintaxe {
 		String result = int1 < int3? "True" : "False";
 		System.out.println(result);
 	}
-
-//---------------------------------------------------	
+	
 	public void operadorLogico() {
 		int idade = 15;		
 		boolean amigoDoDono = true;
@@ -172,7 +172,6 @@ public class Sintaxe {
 		while (x < y);
 	}
 	
-	
 	public void switchCase(String str) {
 		String day = str ;
 				
@@ -202,9 +201,7 @@ public class Sintaxe {
 	    	System.out.println("Nenhuma das opções");
 	    	break;
 		}
-	}
-	
-//---------------------------------------------------
+	}	
 	
 	public void vetorComForIf() {
 		Scanner ler = new Scanner(System.in);
@@ -248,6 +245,4 @@ public class Sintaxe {
 		System.out.printf("\nSoma = %d\n", soma);
 		
 	}
-=======
->>>>>>> c2bc6f5394f09458cf41c214ddf305e5cdd57243
 }

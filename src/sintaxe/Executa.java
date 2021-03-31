@@ -8,7 +8,6 @@ public class Executa {
 		
 //		Sintaxe objeto = new Sintaxe();
 		
-<<<<<<< HEAD
 //		objeto.calculaInt();
 //		objeto.calculaFloat();
 //		objeto.calculaDouble();
@@ -54,25 +53,6 @@ public class Executa {
 		System.out.println(cc.cliente);
 		
 		
-		
-		
-
-			
-
-		
-		
-=======
-		objeto.calculaInt();
-		objeto.calculaFloat();
-		objeto.calculaDouble();
-		objeto.calculaComCast();
-		System.out.println(objeto.int1);
-		objeto.concatenaString();
-		objeto.vetorChar();
-		objeto.fluxoFor();
-		objeto.concatChar();
-		objeto.contcatCharComOperador();
->>>>>>> c2bc6f5394f09458cf41c214ddf305e5cdd57243
 	}
 
 }
