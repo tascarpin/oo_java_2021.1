@@ -268,14 +268,44 @@ public class Sintaxe {
 		}
 	}
 	
-	public void loopDoWhile() {		
-		int i = 4;
-		
+	public void loopDoWhile(int x, int y) {		
 		do {
-		  System.out.println(i);
-		  i++;
+		  System.out.println(x);
+		  x++;
 		}
-		while (i < 5);
+		while (x < y);
+	}
+	
+	
+	public void switchCase(String str) {
+		String day = str ;
+				
+		switch (day) {
+		  case "Monday":
+		    System.out.println("Monday");
+		    break;
+		  case "Tuesday":
+		    System.out.println("Tuesday");
+		    break;
+		  case "Wednesday":
+		    System.out.println("Wednesday");
+		    break;
+		  case "Thursday":
+		    System.out.println("Thursday");
+		    break;
+		  case "Friday":
+		    System.out.println("Friday");
+		    break;
+		  case "Saturday":
+		    System.out.println("Saturday");
+		    break;
+		  case "Sunday":
+		    System.out.println("Sunday");
+		    break;
+		  default:
+	    	System.out.println("Nenhuma das opções");
+	    	break;
+		}
 	}
 	
 //---------------------------------------------------

@@ -1,10 +1,12 @@
 package sintaxe;
 
+import classe_objeto.ContaCorrente;
+
 public class Executa {
 
 	public static void main(String[] args) {
 		
-		Sintaxe objeto = new Sintaxe();
+//		Sintaxe objeto = new Sintaxe();
 		
 //		objeto.calculaInt();
 //		objeto.calculaFloat();
@@ -43,7 +45,14 @@ public class Executa {
 //		objeto.operadorLogico2();
 //		objeto.loopWhile();
 //		objeto.incrementosPrePos();
-		objeto.loopDoWhile();
+//		objeto.loopDoWhile(4, 10);
+//		objeto.switchCase("Monday");
+		
+		
+		ContaCorrente cc = new ContaCorrente();
+		System.out.println(cc.cliente);
+		
+		
 		
 		
 
