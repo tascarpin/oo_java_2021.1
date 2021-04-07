@@ -1,7 +1,5 @@
 package sintaxe;
 
-import classe_objeto.ContaCorrente;
-
 public class Executa {
 
 	public static void main(String[] args) {
@@ -48,9 +46,12 @@ public class Executa {
 //		objeto.loopDoWhile(4, 10);
 //		objeto.switchCase("Monday");
 		
-		
-		ContaCorrente cc = new ContaCorrente();
-		System.out.println(cc.cliente);
+		/*
+		 * Exemplo de uma instância para exemplificar os modificadores de acesso
+		 * public, private, default, protected
+		*/
+//		ContaCorrente cc = new ContaCorrente();
+//		System.out.println(cc.cliente);
 		
 		
 	}

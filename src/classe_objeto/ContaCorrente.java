@@ -1,12 +1,20 @@
 package classe_objeto;
 
-public class ContaCorrente {
+public class ContaCorrente extends Conta {
 
-	public String numero = "12345", cliente = "Tassio", cpf;
-	float saldo = 10, limite = 20.5f;
+	private String cpf;
 	
-	public ContaCorrente() {
-		
+	public ContaCorrente(String nome, String numero, String cpf) {
+		super(nome, numero);
+		this.cpf = cpf;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
 }
