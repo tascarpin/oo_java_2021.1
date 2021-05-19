@@ -32,7 +32,7 @@ public class Executa {
 		
 		
 		
-		ContaCorrente cc = new ContaCorrente("Tassio", "12345-6", "123456789");
+		ContaCorrente cc = new ContaCorrente("Tassio", "12345-6", "123456789");		
 //		cc.setCpf("12345678-99");
 //		System.out.println("Nome do cliente: " + cc.getNome());
 //		System.out.println("Numero de CPF: " + cc.getCpf());
